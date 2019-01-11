@@ -8,7 +8,9 @@ Find the name of a country including the country name in local language in paren
 
 
 ### Convert Alpha-2 Code to flag
-Find the flag of a country in a sprite sheet.
+Find the flag of a country in this sprite sheet.
+
+![Sprite sheet](assets/flag.png)
 
 ```elm
 > import Iso3166
@@ -20,6 +22,8 @@ Just ( -112, -144 )
 > div
     [ style "background-image" ("url(\"" ++ Iso3166.flagImageData ++ "\")"
     , style "background-position" (String.fromFloat x ++ "px " ++ String.fromFloat y ++ "px")
+    , style "width" "16px"
+    , style "height" "16px"
     ]
     []
 ```
