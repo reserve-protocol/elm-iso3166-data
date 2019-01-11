@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "reserve-protocol/elm-i3166-data",
+    "name": "reserve-protocol/elm-iso3166-data",
     "summary": "ISO 3166 data including country names, flags sprite sheet, dial codes, and more",
     "license": "MIT",
     "version": "1.0.0",
